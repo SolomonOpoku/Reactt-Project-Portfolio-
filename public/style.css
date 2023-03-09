@@ -1,0 +1,379 @@
+
+ li {
+    display: inline-block;
+}
+
+div ul li {
+   margin: 20px;
+   position: relative;
+   left: -50px;
+   font-weight: bold;
+}
+
+.gitButton {
+    position: absolute;
+    /* color: whitesmoke; */
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 7px;
+    margin-top: 15px;
+    margin-left: 400px;
+}
+
+.check {
+    width: 130px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-size: large;
+}
+
+.jhoker {
+    margin: 20px;
+    width: 15%;
+    position: absolute;
+    left: 0;
+}
+
+.brandContainer {
+    background-color: black;
+    text-align: center;
+}
+
+.homeContainer {
+    background-color: black;
+}
+
+.img {
+    margin-top: 50px;
+    width: 90%;
+    margin-bottom: 150px;
+}
+
+.col2 {
+    margin-top: 50px;
+    margin-left: 60px;
+    color: #fffefe;
+}
+
+h2 {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.7rem;
+    color: red;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.about {
+    width: 15%;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+.there {
+    color: black;
+}
+
+.con {
+    border-radius: 150px;
+    height: 55px;
+    width: 55px;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.expe {
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.eduContainer {
+    margin-bottom: 100px;
+    background-color: #678a96;
+}
+
+.cap {
+    width: 70%;
+}
+
+.edu {
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+}
+
+.ul {
+    color: red;
+    background-color: black;
+    padding: 50px;
+    margin: 30px;
+}
+
+.list {
+    font-size: 1.1rem;
+    font-weight: bold;
+    top: -50px;
+    left: 40px;
+}
+
+.ht {
+    left: 50px;
+}
+
+.cs {
+    left: 60px;
+}
+
+.li {
+    color: whitesmoke;
+}
+
+.h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.html {
+    position: relative; 
+    left: 140px; 
+    top: 20px; 
+}
+
+.css {
+    position: relative; 
+    left: 160px; 
+    top: 20px; 
+    width: 15%;
+}
+
+.js {
+    position: relative; 
+    left: 160px; 
+    top: 20px; 
+    width: 15%;
+}
+
+.node {
+    left: 100px;
+}
+
+.mongo {
+    left: 110px;
+}
+
+.bootstrap {
+    position: relative; 
+    left: 140px; 
+    top: 20px; 
+    width: 20%;
+}
+
+.github {
+    position: relative; 
+    left: 160px; 
+    top: 20px; 
+    width: 15%;
+}
+
+.jquery {
+    position: relative; 
+    left: 110px; 
+    top: 20px; 
+    width: 40%;
+}
+
+.react {
+    left: 110px;
+}
+
+.express {
+    left: 120px;
+}
+
+.pic {
+    margin: 15px;
+    padding: 5px;
+    width: 70%;
+}
+
+.workContainer {
+    background-color: #264949;
+}
+
+.p {
+    text-align: center;
+}
+
+.pa {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.contactContainer {
+    text-align: center;
+}
+
+.ok {
+    color: #000000;
+    font-weight: bold;
+}
+
+.link {
+    color: #000000;
+}
+
+.contact {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    color: red;
+    backGround-color: #000000;
+} 
+
+.nav-link {
+    text-align: center;
+} 
+
+.name {
+    color: whitesmoke;
+}
+
+@media screen and (min-width: 992px) {
+    .offcanvas {
+        visibility: visible;
+        position: relative;
+        background: none;
+        border: none;
+        justify-content: end;
+        color: red;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .offcanvas {
+        width: 250px !important;
+    }
+
+    .offcanvas-end {
+        top: 0;
+        left: 0;
+        border-right: 1px solid rgba(0, 0, 0, 2);
+        transform: translateX(-100%);
+    }
+
+    .gitButton {
+        padding: 7px;
+        margin-top: 15px;
+        margin-left: 250px;
+    }
+
+    .check {
+        position: relative;
+        margin-left: 100px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .image {
+        margin-top: 30px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .pa {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+       font-size: 1.7rem;
+       text-align: center;
+    }
+
+    h5 {
+        /* font-size: 1.7rem; */
+        color: red;
+        text-align: center;
+     }
+
+     .aboutm {
+        width: 20%;
+        margin-top: -90px;
+        margin-left: 160px;
+     }
+
+     .educontainer {
+        margin-bottom: 100px;
+        background-color: #678a96;
+    }
+
+    .cap {
+        margin-top: -70px;
+        margin-left: 70px;
+    }
+
+    .par {
+        font-weight: bold;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .work {
+        text-align: center;
+    }
+
+    .con {
+       margin: 8px;
+    }
+
+    .list {
+        left: 55px;
+    }
+
+    .ht {
+        left: 70px;
+    }
+
+    .htm { 
+        left: 160px; 
+    }
+
+    .node {
+        left: 120px;
+    }
+
+}
+
+
+
+
+body {
+    margin: 0;
+}
+
