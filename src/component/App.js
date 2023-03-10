@@ -1,41 +1,40 @@
-import React from 'react';
-import Home from './Home';
-import About from './About';
-import Skill from './Skill';
-import Work from './Work';
-import Contact from './Contact';
-import Footer from './footer';
-import Education from './Education';
-
+import React from "react";
+import Home from "./Home";
+import About from "./About";
+import Skill from "./Skill";
+import Work from "./Work";
+import Contact from "./Contact";
+import Footer from "./footer";
+import Education from "./Education";
 
 function App() {
   return (
-    <div> 
-    <Home />
-<br/>
-<br/>
-<br/>
-<br/>
+    <div>
+      <Home />
+      <br />
+      <br />
+      <br />
+      <br />
 
-    <About />
+      <About />
 
-<br/>
-<br/>
-<br/>
-<Education />
+      <br />
+      <br />
+      <br />
+      <Education />
 
-    <Skill />
+      <Skill />
 
-<br/>
-<br/>
-<br/>
+      <br />
+      <br />
+      <br />
 
-    <Work />
+      <Work />
 
-<br/>
-    <Contact />
+      <br />
+      <Contact />
 
-    <Footer />
+      <Footer />
     </div>
   );
 }
