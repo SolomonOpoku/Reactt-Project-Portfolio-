@@ -2,7 +2,7 @@ import React from "react";
 
 function Skill() {
   return (
-    <div class="skillContainer">
+    <div id="skillSection" class="skillContainer">
       <div class="container">
         <div class="h2">
           <h2 class="skill">

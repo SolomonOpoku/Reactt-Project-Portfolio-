@@ -5,7 +5,7 @@ const screen = window.innerWidth;
 function Education() {
   if (screen > 700) {
     return (
-      <div class="eduContainer">
+      <div id="eduSection" class="eduContainer">
         <div class="container">
           <div class="edu">
             <h2>
@@ -45,7 +45,7 @@ function Education() {
     );
   } else {
     return (
-      <div class="educontainer">
+      <div id="eduSection" class="educontainer">
         <h2>
           My <span>Education</span>
         </h2>

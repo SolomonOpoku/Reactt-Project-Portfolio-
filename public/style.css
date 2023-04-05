@@ -10,6 +10,11 @@ div ul li {
    font-weight: bold;
 }
 
+.gitButton:hover {
+    background: white;
+    border: 1px solid white;
+}
+
 .gitButton {
     position: absolute;
     /* color: whitesmoke; */

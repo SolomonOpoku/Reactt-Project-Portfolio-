@@ -9,7 +9,7 @@ function Home() {
       <div class="homeContainer">
         <Header />
 
-        <div class="container">
+        <div id="homeSection" class="container">
           <div class="row">
             <div class="col">
               <img className="img" src="/image/new.jpg" alt="Profile" />
@@ -26,7 +26,7 @@ function Home() {
               </p>
 
               <button class="gitButton check" type="button">
-                <a href="/home">Resume</a>
+                <a href="https://drive.google.com/file/d/1tyhtqvtWYVLoOkETDVKbkD-_OMBLLVUu/view">Resume</a>
               </button>
             </div>
           </div>
@@ -35,7 +35,7 @@ function Home() {
     );
   } else {
     return (
-      <div class="homeContainer">
+      <div id="homeSection" class="homeContainer">
         <Header />
         <div>
           <img className="image" src="/image/new.jpg" alt="Profile" />
@@ -53,7 +53,7 @@ function Home() {
             </p>
 
             <button class="gitButton check" type="button">
-              <a href="/home">Resume</a>
+              <a href="https://drive.google.com/file/d/1tyhtqvtWYVLoOkETDVKbkD-_OMBLLVUu/view">Resume</a>
             </button>
           </div>
         </div>

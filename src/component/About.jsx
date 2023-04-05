@@ -5,7 +5,7 @@ const screen = window.innerWidth;
 function About() {
   if (screen > 700) {
     return (
-      <div class="container">
+      <div id="aboutMe" class="container">
         <div class="row">
           <div class="col">
             <img class="about" src="/image/AboutMe.gif" alt="AboutMe" />
@@ -59,7 +59,7 @@ function About() {
                 </li>
                 <li className="con">
                   {" "}
-                  <a href="/home">
+                  <a href="https://www.linkedin.com/in/solomon-yeboah-b3b8b1258">
                     <span className="fa fa-linkedin" />
                   </a>
                 </li>
@@ -71,7 +71,7 @@ function About() {
     );
   } else {
     return (
-      <div class="container">
+      <div id="aboutMe" class="container">
         <img class="aboutm" src="/image/AboutMe.gif" alt="AboutMe" />
 
         <h2>

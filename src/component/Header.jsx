@@ -15,25 +15,28 @@ function Header() {
         </div>
 
         <button class="gitButton" type="button">
-          <a href="/home">Linkedin Profile</a>
+          <a href="https://www.linkedin.com/in/solomon-yeboah-b3b8b1258">Linkedin Profile</a>
         </button>
 
         <div>
           <ul>
             <li id="home">
-              <a href="./Home">HOME</a>
+              <a href="#homeSection">HOME</a>
             </li>
             <li id="about">
-              <a href="./About">ABOUT</a>
+              <a href="#aboutMe">ABOUT</a>
+            </li>
+            <li id="edu">
+              <a href="#eduSection">EDUCATION</a>
             </li>
             <li id="skill">
-              <a href="./Skill">SKILLS</a>
+              <a href="#skillSection">SKILLS</a>
             </li>
             <li id="work">
-              <a href="./Work">WORK</a>
+              <a href="#workSection">WORK</a>
             </li>
             <li id="contact">
-              <a href="./Contact">CONTACT</a>
+              <a href="#contactSection">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -43,7 +46,7 @@ function Header() {
     return (
       <nav class="navbar">
         <button class="gitButton" type="button">
-          <a href="/home">Linkedin Profile</a>
+          <a href="https://www.linkedin.com/in/solomon-yeboah-b3b8b1258">Linkedin Profile</a>
         </button>
         <div>
           <button
@@ -62,31 +65,38 @@ function Header() {
             <div class="offcanvas-body">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="Home">
+                  <a class="nav-link" href="#homeSection">
                     HOME
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="About">
+                  <a class="nav-link" href="#aboutMe">
                     ABOUT
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="Skill">
+                  <a class="nav-link" href="#eduSection">
+                    EDUCATION
+                  </a>
+                </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#skillSection">
                     SKILLS
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="Work">
+                  <a class="nav-link" href="#workSection">
                     WORK
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="Contact">
+                  <a class="nav-link" href="#contactSection">
                     CONTACT
                   </a>
                 </li>

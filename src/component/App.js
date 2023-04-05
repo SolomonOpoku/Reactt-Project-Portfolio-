@@ -8,6 +8,19 @@ import Footer from "./footer";
 import Education from "./Education";
 
 function App() {
+  // const [isMobile, setIsMobile] = useState(false)
+
+  // const handleResize = () => {
+  //   if (window.innerWidth < 720) {
+  //     setIsMobile(true)
+  //   } else {
+  //     setIsMobile(false)
+  //   }
+  // }
+
+  // useEffect(() => {
+  //   window.addEventListener("resize", handleResize)
+  // })
   return (
     <div>
       <Home />
