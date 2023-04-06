@@ -37,7 +37,7 @@ function Skill() {
             <img className="bootstrap htm" src="/image/Bootstrap.png" alt="" />
 
             <ul class="ul">
-              <li class="list">BOOTSTRAP</li>
+              <li class="list boot">BOOTSTRAP</li>
               <p class="li">
                 I use bootstrap for creating responsive web pages
               </p>
@@ -50,7 +50,7 @@ function Skill() {
             <img className="js htm" src="/image/javascript.png" alt="" />
 
             <ul class="ul">
-              <li class="list">JAVASCRIPT</li>
+              <li class="list jscript">JAVASCRIPT</li>
               <p class="li">I use javascript for making functional web pages</p>
             </ul>
           </div>
@@ -81,7 +81,7 @@ function Skill() {
             <img className="html mongo" src="/image/mongo.png" alt="" />
 
             <ul class="ul">
-              <li class="list">MONGODB</li>
+              <li class="list mongoDB">MONGODB</li>
               <p class="li">I use mongoDB for storing data from web apps</p>
             </ul>
           </div>
@@ -115,7 +115,7 @@ function Skill() {
             <img className="html express" src="/image/express.png" alt="" />
 
             <ul class="ul">
-              <li class="list">EXPRESSJS</li>
+              <li class="list expressJS">EXPRESSJS</li>
               <p class="li">
                 It's a Backend library that helps me develop web apps easier
               </p>
@@ -135,7 +135,7 @@ function Skill() {
             <img className="html htm" src="/image/postman.png" alt="" />
 
             <ul class="ul">
-              <li class="list">POSTMAN</li>
+              <li class="list postman">POSTMAN</li>
               <p class="li">I use Postman for creating and testing APIs </p>
             </ul>
           </div>

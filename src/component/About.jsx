@@ -90,18 +90,18 @@ function About() {
 
         <div class="contactContainer">
           <ul>
-            <li className="con">
+            {/* <li className="con">
               {" "}
               <a href="tel: +233576760647">
                 <span className="fa fa-phone" />
               </a>
-            </li>
-            <li className="con">
+            </li> */}
+            {/* <li className="con">
               {" "}
               <a href="https://www.facebook.com/Solomon Yeboah">
                 <span className="fa fa-facebook" />
               </a>
-            </li>
+            </li> */}
             <li className="con">
               {" "}
               <a href="https://www.instagram.com/jhoker_dev">

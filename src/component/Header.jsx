@@ -46,7 +46,7 @@ function Header() {
     return (
       <nav class="navbar">
         <button class="gitButton" type="button">
-          <a href="https://www.linkedin.com/in/solomon-yeboah-b3b8b1258">Linkedin Profile</a>
+          <a href="https://www.linkedin.com/in/solomon-yeboah-b3b8b1258">Linkedin </a>
         </button>
         <div>
           <button

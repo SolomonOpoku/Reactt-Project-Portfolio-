@@ -280,6 +280,10 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
+    .navbar-toggler-icon {
+        border: 1px solid white;
+        border-radius: 5px;
+    }
     .offcanvas {
         width: 250px !important;
     }
@@ -287,7 +291,7 @@ footer {
     .offcanvas-end {
         top: 0;
         left: 0;
-        border-right: 1px solid rgba(0, 0, 0, 2);
+        border-right: 1px solid rgb(14, 14, 136);
         transform: translateX(-100%);
     }
 
@@ -295,6 +299,7 @@ footer {
         padding: 7px;
         margin-top: 15px;
         margin-left: 250px;
+        width: 110px;
     }
 
     .check {
@@ -358,19 +363,43 @@ footer {
     }
 
     .list {
-        left: 55px;
+        left: 45px;
     }
 
     .ht {
-        left: 70px;
+        left: 50px;
+    }
+
+    .cs {
+        left: 55px;
     }
 
     .htm { 
-        left: 160px; 
+        left: 150px; 
+    }
+
+    .boot {
+        left: 37px;
+    }
+
+    .jscript {
+        left: 35px;
+    }
+
+    .mongoDB {
+        left: 35px;
+    }
+
+    .expressJS {
+        left: 37px;
+    }
+
+    .postman {
+        left: 37px;
     }
 
     .node {
-        left: 120px;
+        left: 100px;
     }
 
 }
