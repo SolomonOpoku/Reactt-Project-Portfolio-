@@ -12,7 +12,7 @@ function Home() {
         <div id="homeSection" class="container">
           <div class="row">
             <div class="col">
-              <img className="img" src="/image/new.jpg" alt="Profile" />
+              <img className="homeImage" src="/image/new.jpg" alt="Profile" />
             </div>
 
             <div class="col col2">
@@ -20,12 +20,12 @@ function Home() {
 
               <h4>FULL STACK WEB DEVELOPER</h4>
 
-              <p class="pa">
+              <p class="homeParagh">
                 A Web Developer and Designer from Ghana. I create custom
                 websites and web applications to help business do better online.
               </p>
 
-              <button class="gitButton check" type="button">
+              <button class="gitButton buttonResume" type="button">
                 <a href="https://drive.google.com/file/d/1tyhtqvtWYVLoOkETDVKbkD-_OMBLLVUu/view">Resume</a>
               </button>
             </div>
@@ -38,21 +38,21 @@ function Home() {
       <div id="homeSection" class="homeContainer">
         <Header />
         <div>
-          <img className="image" src="/image/new.jpg" alt="Profile" />
+          <img className="homeMobileImage" src="/image/new.jpg" alt="Profile" />
         </div>
 
-        <div class="name">
+        <div className="homeName">
           <h2>YEBOAH SOLOMON OPOKU</h2>
 
           <h5>FULL STACK WEB DEVELOPER</h5>
 
           <div class="container">
-            <p class="pa">
+            <p>
               A Web Developer and Designer from Ghana. I create custom websites
               and web applications to help business do better online.
             </p>
 
-            <button class="gitButton check" type="button">
+            <button class="gitButton buttonResume" type="button">
               <a href="https://drive.google.com/file/d/1tyhtqvtWYVLoOkETDVKbkD-_OMBLLVUu/view">Resume</a>
             </button>
           </div>

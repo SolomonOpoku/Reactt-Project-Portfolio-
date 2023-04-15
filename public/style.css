@@ -1,3 +1,23 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* HEADER CSS */
+
+.headerImage {
+    margin: 20px;
+    width: 15%;
+    position: absolute;
+    left: 0;
+}
+
+.brandContainer {
+    background-color: black;
+    text-align: center;
+}
+
+/* HOME CSS */
 
  li {
     display: inline-block;
@@ -17,7 +37,6 @@ div ul li {
 
 .gitButton {
     position: absolute;
-    /* color: whitesmoke; */
     border: 1px solid red;
     border-radius: 5px;
     background-color: #000000;
@@ -26,7 +45,7 @@ div ul li {
     margin-left: 400px;
 }
 
-.check {
+.buttonResume {
     width: 130px;
     margin-left: 0;
     margin-top: 0;
@@ -38,23 +57,11 @@ a {
     font-size: large;
 }
 
-.jhoker {
-    margin: 20px;
-    width: 15%;
-    position: absolute;
-    left: 0;
-}
-
-.brandContainer {
-    background-color: black;
-    text-align: center;
-}
-
 .homeContainer {
     background-color: black;
 }
 
-.img {
+.homeImage {
     margin-top: 50px;
     width: 90%;
     margin-bottom: 150px;
@@ -81,7 +88,9 @@ p {
     font-size: 1.1rem;
 }
 
-.about {
+/* ABOUT CSS */
+
+.aboutImage {
     width: 15%;
 }
 
@@ -94,7 +103,11 @@ span {
     color: black;
 }
 
-.con {
+.aboutParagraph {
+    font-weight: bold;
+}
+
+.aboutLink {
     border-radius: 150px;
     height: 55px;
     width: 55px;
@@ -103,22 +116,18 @@ span {
     margin: 10px;
 }
 
-.expe {
-    color: #000000;
-    font-size: 1.1rem;
-    font-weight: bold;
-}
+/* EDUCATION CSS */
 
 .eduContainer {
     margin-bottom: 100px;
     background-color: #678a96;
 }
 
-.cap {
+.eduCap {
     width: 70%;
 }
 
-.edu {
+.eduHeader {
     text-align: center;
 }
 
@@ -128,11 +137,23 @@ h3 {
     color: black;
 }
 
-.ul {
+.eduParagraph {
+    font-weight: bold;
+}
+
+/* SKILL CSS */
+
+.skillUl {
     color: red;
     background-color: black;
     padding: 50px;
     margin: 30px;
+}
+
+.skillParagraph {
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .list {
@@ -150,11 +171,11 @@ h3 {
     left: 60px;
 }
 
-.li {
+.skillListParagraph {
     color: whitesmoke;
 }
 
-.h2 {
+.skillHeader {
     text-align: center;
     font-weight: bold;
 }
@@ -216,41 +237,53 @@ h3 {
     left: 120px;
 }
 
+/* WORK CSS */
+
 .pic {
     margin: 15px;
     padding: 5px;
     width: 70%;
 }
 
+.workParagraph {
+    color: whitesmoke;
+}
+
 .workContainer {
     background-color: #264949;
 }
 
-.p {
+.workHeader {
     text-align: center;
 }
 
-.pa {
+/* HOME CSS */
+
+.homeParagraph {
     color: whitesmoke;
     font-weight: bold;
 }
+
+/* CONTACT CSS*/
 
 .contactContainer {
     text-align: center;
 }
 
-.ok {
+.contactFa {
     color: #000000;
     font-weight: bold;
 }
 
-.link {
+.contactLink {
     color: #000000;
 }
 
-.contact {
+.contactHeader {
     text-align: center;
 }
+
+/* FOOTER CSS*/
 
 footer {
     text-align: center;
@@ -260,13 +293,8 @@ footer {
     backGround-color: #000000;
 } 
 
-.nav-link {
-    text-align: center;
-} 
 
-.name {
-    color: whitesmoke;
-}
+/* MOBILE SIZE CSS*/
 
 @media screen and (min-width: 992px) {
     .offcanvas {
@@ -280,6 +308,13 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
+    body {
+        font-weight: lighter;
+        /* display: none; */
+    }
+
+    /* HOME CSS */
+
     .navbar-toggler-icon {
         border: 1px solid white;
         border-radius: 5px;
@@ -302,64 +337,79 @@ footer {
         width: 110px;
     }
 
-    .check {
+    .buttonResume {
         position: relative;
         margin-left: 100px;
         margin-top: 0;
         margin-bottom: 20px;
     }
 
-    .image {
+    .homeMobileImage {
         margin-top: 30px;
         width: 100%;
         margin-bottom: 50px;
     }
 
-    .pa {
-        font-size: 1.2rem;
+    .homeName {
+        color: whitesmoke;
     }
+
+    .nav-link {
+        text-align: center;
+    } 
 
     h2 {
-       font-size: 1.7rem;
-       text-align: center;
-    }
-
-    h5 {
-        /* font-size: 1.7rem; */
-        color: red;
+        font-size: 1.7rem;
         text-align: center;
      }
+ 
+     h5 {
+         color: red;
+         text-align: center;
+      }
 
-     .aboutm {
+    /* WORK CSS */ 
+
+    .workMobileParagraph {
+        color: whitesmoke;
+    }
+
+    .workImage {
+        text-align: center;
+    }
+
+    /* ABOUT CSS */
+
+     .aboutMobileImage {
         width: 20%;
         margin-top: -90px;
         margin-left: 160px;
      }
+
+     .aboutLink {
+        margin: 8px;
+     }
+
+     /* EDUCATION CSS */
 
      .educontainer {
         margin-bottom: 100px;
         background-color: #678a96;
     }
 
-    .cap {
+    .eduCap {
         margin-top: -70px;
         margin-left: 70px;
-    }
-
-    .par {
-        font-weight: bold;
     }
 
     h3 {
         text-align: center;
     }
 
-    .work {
-        text-align: center;
-    }
+    /* SKILL CSS */
 
-    .con {
-       margin: 8px;
+    .skillMobileParagrah {
+        font-weight: lighter;
     }
 
     .list {
@@ -402,12 +452,10 @@ footer {
         left: 100px;
     }
 
+    /* CONTACT CSS */
+
+    .contactMobileParagraph {
+        font-weight: lighter;
+    }
+
 }
-
-
-
-
-body {
-    margin: 0;
-}
-

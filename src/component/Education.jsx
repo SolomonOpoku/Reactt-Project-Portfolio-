@@ -7,18 +7,18 @@ function Education() {
     return (
       <div id="eduSection" class="eduContainer">
         <div class="container">
-          <div class="edu">
+          <div class="eduHeader">
             <h2>
               My <span>Education</span>
             </h2>
 
-            <p class="pa">About my Education </p>
+            <p class="eduParagraph">About my Education </p>
           </div>
 
           <div class="row">
             <div class="col">
               <img
-                class="cap"
+                class="eduCap"
                 src="/image/graduationcap.com.png"
                 alt="Graduation Cap"
               />
@@ -27,14 +27,14 @@ function Education() {
             <div class="col">
               <h3>School</h3>
               <h4>High School</h4>
-              <p class="pa">
+              <p class="eduParagraph">
                 Attended West Africa Senior High School in the year 2017 and
                 completed in the year 2020. I studied Business and i like
                 Elective Maths very much.
               </p>
 
               <h4>Tertiary Education</h4>
-              <p class="pa">
+              <p class="eduParagraph">
                 Currently a student at Accra Institute of Technology pursuing a
                 degree in Information Technology in my second year.{" "}
               </p>
@@ -51,7 +51,7 @@ function Education() {
         </h2>
 
         <img
-          class="cap"
+          class="eduCap"
           src="/image/graduationcap.com.png"
           alt="Graduation Cap"
         />
@@ -60,14 +60,14 @@ function Education() {
 
         <div class="container">
           <h4>High School</h4>
-          <p class="par">
+          <p class="eduPara">
             Attended West Africa Senior High School in the year 2017 and
             completed in the year 2020. I studied Business and i like Elective
             Maths very much.
           </p>
 
           <h4>Tertiary Education</h4>
-          <p class="par">
+          <p class="eduPara">
             Currently a student at Accra Institute of Technology pursuing a
             degree in Information Technology in my second year.{" "}
           </p>

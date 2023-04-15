@@ -8,7 +8,7 @@ function About() {
       <div id="aboutMe" class="container">
         <div class="row">
           <div class="col">
-            <img class="about" src="/image/AboutMe.gif" alt="AboutMe" />
+            <img class="aboutImage" src="/image/AboutMe.gif" alt="AboutMe" />
           </div>
 
           <div class="col">
@@ -19,7 +19,7 @@ function About() {
               Hello! <span class="there">There</span>{" "}
             </h4>
 
-            <p class="expe">
+            <p class="aboutParagraph">
               I am Solomon a student of Accra Institute of Technology (AiT)
               pursuing a Degree in Information Technology (I.T). I like web
               application development and mobile application development.
@@ -27,37 +27,37 @@ function About() {
 
             <div class="contactContainer">
               <ul>
-                <li className="con">
+                <li className="aboutLink">
                   {" "}
                   <a href="tel: +233576760647">
                     <span className="fa fa-phone" />
                   </a>
                 </li>
-                <li className="con">
+                <li className="aboutLink">
                   {" "}
                   <a href="https://www.facebook.com/Solomon Yeboah">
                     <span className="fa fa-facebook" />
                   </a>
                 </li>
-                <li className="con">
+                <li className="aboutLink">
                   {" "}
                   <a href="https://www.instagram.com/jhoker_dev">
                     <span className="fa fa-instagram" />
                   </a>
                 </li>
-                <li className="con">
+                <li className="aboutLink">
                   {" "}
                   <a href="mailto: jhokerdev@gmail.com?subject = Feedback&body = Message">
                     <span className="fa fa-envelope" />
                   </a>
                 </li>
-                <li className="con">
+                <li className="aboutLink">
                   {" "}
                   <a href="https://github.com/SolomonOpoku">
                     <span className="fa fa-github" />
                   </a>
                 </li>
-                <li className="con">
+                <li className="aboutLink">
                   {" "}
                   <a href="https://www.linkedin.com/in/solomon-yeboah-b3b8b1258">
                     <span className="fa fa-linkedin" />
@@ -72,7 +72,7 @@ function About() {
   } else {
     return (
       <div id="aboutMe" class="container">
-        <img class="aboutm" src="/image/AboutMe.gif" alt="AboutMe" />
+        <img class="aboutMobileImage" src="/image/AboutMe.gif" alt="AboutMe" />
 
         <h2>
           About<span>Me</span>
@@ -90,37 +90,25 @@ function About() {
 
         <div class="contactContainer">
           <ul>
-            {/* <li className="con">
-              {" "}
-              <a href="tel: +233576760647">
-                <span className="fa fa-phone" />
-              </a>
-            </li> */}
-            {/* <li className="con">
-              {" "}
-              <a href="https://www.facebook.com/Solomon Yeboah">
-                <span className="fa fa-facebook" />
-              </a>
-            </li> */}
-            <li className="con">
+            <li className="aboutLink">
               {" "}
               <a href="https://www.instagram.com/jhoker_dev">
                 <span className="fa fa-instagram" />
               </a>
             </li>
-            <li className="con">
+            <li className="aboutLink">
               {" "}
               <a href="mailto: jhokerdev@gmail.com?subject = Feedback&body = Message">
                 <span className="fa fa-envelope" />
               </a>
             </li>
-            <li className="con hi">
+            <li className="aboutLink hi">
               {" "}
               <a href="https://github.com/SolomonOpoku">
                 <span className="fa fa-github" />
               </a>
             </li>
-            <li className="con">
+            <li className="aboutLink">
               {" "}
               <a href="https://www.linkedin.com/in/solomon-yeboah-b3b8b1258">
                 <span className="fa fa-linkedin" />

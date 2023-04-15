@@ -8,13 +8,13 @@ function Header() {
       <div class="brandContainer">
         <div>
           <img
-            className="jhoker"
+            className="headerImage"
             src="/image/JHOKER_DEV.png"
             alt="BackgroundImage"
           />
         </div>
 
-        <button class="gitButton" type="button">
+        <button className="gitButton" type="button">
           <a href="https://www.linkedin.com/in/solomon-yeboah-b3b8b1258">Linkedin Profile</a>
         </button>
 

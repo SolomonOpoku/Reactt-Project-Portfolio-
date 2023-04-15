@@ -3,34 +3,34 @@ import React from "react";
 function Contact() {
   return (
     <div id="contactSection" className="contactcontainer">
-      <h2 class="contact">Contact info.</h2>
+      <h2 class="contactHeader">Contact info.</h2>
 
       <div class="contactContainer">
-        <p className="exper">
+        <p className="contactParagraph contactMobileParagraph">
           {" "}
-          <span className="ok fa fa-phone">
+          <span className="contactFa fa fa-phone">
             {" "}
-            <a className="link" href="tel: +233576760647">
+            <a className="contactLink" href="tel: +233576760647">
               ContactMe <br /> + 233 576760647{" "}
             </a>
           </span>
         </p>
-        <p className="exper">
+        <p className="contactParagraph contactMobileParagraph">
           {" "}
-          <span className="ok fa fa-facebook">
+          <span className="contactFa fa fa-facebook">
             {" "}
-            <a className="link" href="https://www.facebook.com/Solomon Yeboah">
+            <a className="contactLink" href="https://www.facebook.com/Solomon Yeboah">
               {" "}
               Facebook <br /> @Solomon Yeboah{" "}
             </a>
           </span>
         </p>
-        <p className="exper">
+        <p className="contactParagraph contactMobileParagraph">
           {" "}
-          <span className="ok fa fa-linkedin">
+          <span className="contactFa fa fa-linkedin">
             {" "}
             <a
-              className="link"
+              className="contactLink"
               href="https://www.linkedin.com/in/solomon-yeboah-b3b8b1258"
             >
               {" "}
@@ -38,22 +38,22 @@ function Contact() {
             </a>
           </span>
         </p>
-        <p className="exper">
+        <p className="contactParagraph contactMobileParagraph">
           {" "}
-          <span className="ok fa fa-instagram">
+          <span className="contactFa fa fa-instagram">
             {" "}
-            <a className="link" href="https://www.instagram.com/jhoker_dev">
+            <a className="contactLink" href="https://www.instagram.com/jhoker_dev">
               {" "}
               Instagram <br /> @jhoker_dev
             </a>
           </span>
         </p>
-        <p className="exper">
+        <p className="contactParagraph contactMobileParagraph">
           {" "}
-          <span className="ok fa fa-envelope">
+          <span className="contactFa fa fa-envelope">
             {" "}
             <a
-              className="link"
+              className="contactLink"
               href="mailto: jhokerdev@gmail.com?subject = Feedback&body = Message"
             >
               {" "}
@@ -61,11 +61,11 @@ function Contact() {
             </a>
           </span>
         </p>
-        <p className="exper">
+        <p className="contactParagraph contactMobileParagraph">
           {" "}
-          <span className="ok fa fa-github">
+          <span className="contactFa fa fa-github">
             {" "}
-            <a className="link" href="https://github.com/SolomonOpoku">
+            <a className="contactLink" href="https://github.com/SolomonOpoku">
               {" "}
               Github <br /> Solomon Yeboah
             </a>
